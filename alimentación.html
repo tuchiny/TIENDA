@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit_life + Alimentación</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="images/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <section class="knowledge">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h2 class="subtitle">¿Qué es la tasa metabólica basal y para qué sirve?</h2>
+                <p class="knowledge__paragraph">La tasa metabólica basal (TMB) o metabolismo basal es la cantidad mínima de energía que nuestro cuerpo necesita para mantener funciones vitales básicas como respirar, procesos digestivos, control de la temperatura, etc.</p>
+            </div>
+
+            <figure class="knowledge__picture">
+                <img src="./images/calorias1.jpg" class="knowledge__img">
+            </figure>
+        </section>
+        
+    <main>
+
+        <section class="container about">
+            <h2 class="subtitle">Calculadora TMB y Utilidad de la tasa metabólica basal</h2>
+            <p class="about__paragraph">Conocer la tasa metabólica basal nos permite conocer las necesidades calóricas del cuerpo para realizar las funciones básicas.</p>
+
+            <div class="about__main">
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">TMB</h2>
+                    <p class="knowledge__paragraph">¿Conoces en qué categoría estás?</p>
+                        <figure class="knowledge__picture">
+                            <img src="./images/TMB.jpg" class="knowledge__img">
+                        </figure>
+                        <h2 class="subtitle">ecuación de Mifflin-St. Jeor y cómo aplicarla en tu desarrollo nutricional.</h2>
+                        <p class="knowledge__paragraph">"Descubre las calorías que tu cuerpo necesita con la ecuación TMB y crea planes personalizados para déficit, mantenimiento o aumento de peso. Mejora tu enfoque nutricional con este conocimiento esencial. Para obtener un plan detallado y más información, descarga nuestra app."</p>
+                    <a href="./trabjando.html" class="cta">Descargar</a>
+                </div>
+
+                <div class="container">
+
+                    <h1>Calculadora de TMB - Mifflin-St. Jeor</h1>    
+                
+                    <div>
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" placeholder="Ingrese su edad">
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo:</label>
+                        <select id="sexo">
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="actividad">Factor de actividad:</label>
+                        <select id="actividad">
+                            <option value="Sed__activo">Sedentario - (poco o ningún ejercicio)</option>
+                            <option value="Lig_activo">Ligeramente activo - (ejercicio físico de 1 a 3 días por semana)</option>
+                            <option value="Mod_activo">Moderadamente activo - (ejercicio físico de 3 a 5 días por semana)</option>
+                            <option value="Muy_activo">Muy activo - (ejercicio físico de 6 a 7 días a la semana)</option>
+                            <option value="Ext_activo">Extremadamente activo - (ejercicio físico 2 veces al día)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="altura">Altura (cm):</label>
+                        <input type="number" id="altura" placeholder="Ingrese altura">
+                    </div>
+                    <div>
+                        <label for="peso">Peso (kg):</label>
+                        <input type="number" id="peso" placeholder="Ingrese peso">
+                    </div>
+                    <button onclick="calcularTMB()">Calcular TMB</button>
+                    <div id="resultado4"></div>
+                  
+                </div>
+                <script src="./js/script_TMB.js"></script>
+
+                
+
+                
+
+                
+            </div>
+            
+            
+ 
+        </div>
+
+        
+        </section>
+            
+            
+            
+    
+    </main>
+    
+</body>
+</html>
